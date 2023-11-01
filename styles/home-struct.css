@@ -22,7 +22,7 @@
 
 /* mobile view media queries */
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 480px) {
     .top-heading {
         grid-area: a;
     }
@@ -173,7 +173,8 @@
         height: 1000px;
         background: url('../assets/images/Did\ you\ know\ background.png');
         background-repeat: no-repeat;
-        background-size: contain;
+        background-size: cover;
+        margin-bottom: 60px;
     }
 
     .out-of-four{
