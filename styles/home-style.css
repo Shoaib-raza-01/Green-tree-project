@@ -110,6 +110,8 @@ a{
 .take-action-btn{
     margin-top: 62px;
     margin-left: 32px;
+    font: normal normal bold 18px/22px Helvetica;
+    color: #354463;
 }
 
 .read-more-btn{
@@ -127,8 +129,8 @@ a{
     height: 40px;
     width: 160px;
     display: flex;
-    position: relative;
-    top: -20px;
+    /* position: relative;
+    top: -20px; */
     align-items: center;
     justify-content: center;
     background: #354463 0% 0% no-repeat padding-box;
