@@ -1,0 +1,288 @@
+.nav-parent {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+        "a b"
+        "c c";
+    justify-items: center;
+    align-items: center;
+    padding: 10px 0 0 15px;
+}
+
+.nav-child {
+    align-items: center;
+    font: normal 300 14px/20px Helvetica;
+}
+/* mobile view  */
+@media screen and  (max-width:500px){
+    .top-heading {
+        grid-area: a;
+    }
+    .menu {
+        grid-area: b;
+        display: block;
+        margin-bottom: 10px;
+        text-decoration: none;
+    }
+    .donate-btn {
+        grid-area: c;
+        height: 40px;
+        width: 100%;
+    }
+    /* second element  */
+
+    .issue{
+        height: 525px;
+        background: url('../assets/assets/about-us/annie-spratt-427339-unsplash.png'); 
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 2px 25px 50px 25px;
+    
+    }
+    .issue-head{
+        left: 72px;
+    }
+    .issue-content{
+        height: 250px;
+        width: 312px;
+        /* padding-bottom: 20px; */
+        background-color: rgb(255, 255, 255);
+    }
+    .content{
+        text-align: center;
+        padding-top: 35px;
+        font: normal normal bold 22px/28px Helvetica;
+        letter-spacing: 0px;
+        color: #354463;
+        opacity: 1;
+    }
+    .meta{
+        text-decoration: underline;
+        opacity: 1;
+        text-align: center;
+        color: #354463;
+        font-size: small;
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 32px 32px;
+    }
+    /* footer here  */
+    .contact{
+        text-align: left;
+        font: normal normal normal 11px/13px Helvetica;
+        letter-spacing: 0.44px;
+        color: #354463;
+        opacity: 1;
+        position: relative;
+        left: 40px;
+    }
+    .page-title{
+        width: 90px;
+        height: 60px;
+        text-align: left;
+        font: normal normal bold 18px/22px Helvetica;
+        letter-spacing: 0px;
+        color: #354463;
+    }
+    .address{
+        height: 80px;
+        width: 175px;
+    }
+    .footer-li{
+        text-align: left;
+        text-decoration: underline;
+        font: normal normal 300 14px/24px Helvetica;
+        letter-spacing: -0.14px;
+        color: #354463;
+
+    }
+    .footer-tag{
+        padding: 0 20px 20px 200px;
+    }
+    .extra{
+        display: none;
+    }
+    .contact-us{
+        width: 100px;
+        height: 75px;
+        padding-bottom: 40px;
+        margin-right: 20px;
+    }
+    .flex-item{
+        flex: 0 0 calc(50% - 10px); 
+    }  
+}
+
+/* tablet view  */
+
+@media screen and  (min-width:500px){
+    .top-heading {
+        grid-area: a;
+        margin-left: -140px;
+    }
+    .donate-btn {
+        grid-area: b;
+        width: 145px;
+        height: 50px;
+    }
+    .menu {
+        grid-area: c;
+        /* display: flex;
+        justify-content: space-around; */
+        margin-left: -300px;
+    }
+    .nav-list{
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+        padding-right: 275px;
+        text-align: left;
+    }
+
+    /* second element  */
+
+    .issue{
+        background: url('../assets/assets/about-us/annie-spratt-427339-unsplash.png');
+        background-size: cover;
+        height: 670px;
+        background-repeat: no-repeat;
+    }
+    .tag{
+        height: 135px;
+        width: 180px;
+        padding: 70px 65px 0px ;
+    }
+    .issue-head{
+        position: relative;
+        left: 170px;
+    }
+    .the-issue{
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 25px;
+    }
+    .issue-content{
+        height: 250px;
+        width: 640px;
+        display: flex;
+        flex-direction: column;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: rgb(255, 255, 255);
+        /* padding: 0px 64px; */
+    }
+    .content{
+        text-align: left;
+        font: normal normal bold 36px/46px Helvetica;
+        letter-spacing: 0px;
+        color: #354463;
+        opacity: 1;
+        padding: 0px 64px;
+    }
+    .meta{
+        margin: -11px 64px;
+        color: #354463;
+        font-size: medium;
+        text-decoration: underline;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    /* footer text  */
+    .flex-item{
+        flex: 0 0 calc(33% - 10px); 
+        /* padding: 0; */
+    }
+    .page-title{
+        height: 50px;
+        width: 150px;
+        text-align: left;
+        font: normal normal bold 22px/28px Helvetica;
+        letter-spacing: 0px;
+        color: #354463;
+    }
+    .contact{
+        text-align: left;
+        font: normal normal normal 11px/13px Helvetica;
+        letter-spacing: 0.44px;
+        color: #354463;
+    }
+    .contact-us{
+        width: 120px;
+        height: 75px;
+        padding-bottom: 40px;
+        margin-right: 20px;
+    }
+    .footer-li{
+        list-style: none;
+        /* line-height: 28px; */
+        font-family: 'FloodStd';
+        flex-direction: column;
+        /* text-align: left; */
+        padding: 0;
+        text-decoration: underline;
+        font: normal normal 300 14px/24px Helvetica;
+        letter-spacing: -0.14px;
+        color: #354463;
+    }
+}
+
+
+/* laptop view  */
+
+@media screen and  (min-width:1000px){
+    .top-heading {
+        grid-area: a;
+        align-self: flex-start;
+    }
+    .donate-btn {
+        grid-area: b;
+    }
+    .menu {
+        grid-area: c;
+    }
+    .nav-list{
+        display: flex;
+        
+    }
+    /* footer style  */
+    .flex-item{
+        flex: 0 0 calc(20% - 10px); 
+        /* padding: 0; */
+    }
+    .extra{
+        display: none;
+    }
+    .page-title{
+        height: 50px;
+        width: 150px;
+        text-align: left;
+        font: normal normal bold 22px/28px Helvetica;
+        letter-spacing: 0px;
+        color: #354463;
+    }
+    .contact{
+        text-align: left;
+        font: normal normal normal 11px/13px Helvetica;
+        padding: 5px 0 10px 0;
+        text-decoration: underline;
+        letter-spacing: 0.44px;
+        color: #354463;
+    }
+    .contact-us{
+        width: 120px;
+        height: 75px;
+        padding-bottom: 40px;
+        margin-right: 20px;
+    }
+    .footer-li{
+        list-style: none;
+        text-decoration: none;
+        /* line-height: 28px; */
+        font-family: 'FloodStd';
+        flex-direction: column;
+        /* text-align: left; */
+        padding: 0;
+        font: normal normal 300 14px/24px Helvetica;
+        letter-spacing: -0.14px;
+        color: #354463;
+    }
+}
