@@ -46,11 +46,6 @@
         padding: 2px 25px 50px 25px;
     
     }
-    /* .the-issue{
-        display: flex;
-        margin-left: auto;
-        margin-right: auto;
-    } */
     .issue-head{
         left: 72px;
     }
@@ -324,6 +319,12 @@
         color: #354463;
 
     }
+    .footer-tag{
+        padding: 0 20px 20px 200px;
+    }
+    .extra{
+        display: none;
+    }
     .contact-us{
         width: 100px;
         height: 75px;
@@ -332,7 +333,7 @@
     }
     .flex-item{
         flex: 0 0 calc(50% - 10px); 
-    }
+    }    
 }
 
 /* tablet view mediaqueries */
@@ -679,45 +680,45 @@
 
 
 /* footer here  */
-    .flex-item{
-        flex: 0 0 calc(33% - 10px); 
-        /* padding: 0; */
-    }
-    .page-title{
-        height: 50px;
-        width: 150px;
-        text-align: left;
-        font: normal normal bold 22px/28px Helvetica;
-        letter-spacing: 0px;
-        color: #354463;
-    }
-    .contact{
-        text-align: left;
-        font: normal normal normal 11px/13px Helvetica;
-        letter-spacing: 0.44px;
-        color: #354463;
-    }
-    .contact-us{
-        width: 120px;
-        height: 75px;
-        padding-bottom: 40px;
-        margin-right: 20px;
-    }
-    .footer-li{
-        list-style: none;
-        /* line-height: 28px; */
-        font-family: 'FloodStd';
-        flex-direction: column;
-        /* text-align: left; */
-        padding: 0;
-        text-decoration: underline;
-        font: normal normal 300 14px/24px Helvetica;
-        letter-spacing: -0.14px;
-        color: #354463;
-    }
-    .learn-more{
-        padding-left: 250px;
-    }
+.flex-item{
+    flex: 0 0 calc(33% - 10px); 
+    /* padding: 0; */
+}
+.page-title{
+    height: 50px;
+    width: 150px;
+    text-align: left;
+    font: normal normal bold 22px/28px Helvetica;
+    letter-spacing: 0px;
+    color: #354463;
+}
+.contact{
+    text-align: left;
+    font: normal normal normal 11px/13px Helvetica;
+    letter-spacing: 0.44px;
+    color: #354463;
+}
+.contact-us{
+    width: 120px;
+    height: 75px;
+    padding-bottom: 40px;
+    margin-right: 20px;
+}
+.footer-li{
+    list-style: none;
+    /* line-height: 28px; */
+    font-family: 'FloodStd';
+    flex-direction: column;
+    /* text-align: left; */
+    padding: 0;
+    text-decoration: underline;
+    font: normal normal 300 14px/24px Helvetica;
+    letter-spacing: -0.14px;
+    color: #354463;
+}
+/* .learn-more{ */
+    /* padding-left: 250px; */
+/* } */
 }
 
 /* desktop view media queries*/
@@ -735,6 +736,47 @@
     .nav-list{
         display: flex;
         
+    }
+    .flex-item{
+        flex: 0 0 calc(20% - 10px); 
+        /* padding: 0; */
+    }
+    .extra{
+        display: none;
+    }
+    .page-title{
+        height: 50px;
+        width: 150px;
+        text-align: left;
+        font: normal normal bold 22px/28px Helvetica;
+        letter-spacing: 0px;
+        color: #354463;
+    }
+    .contact{
+        text-align: left;
+        font: normal normal normal 11px/13px Helvetica;
+        padding: 5px 0 10px 0;
+        text-decoration: underline;
+        letter-spacing: 0.44px;
+        color: #354463;
+    }
+    .contact-us{
+        width: 120px;
+        height: 75px;
+        padding-bottom: 40px;
+        margin-right: 20px;
+    }
+    .footer-li{
+        list-style: none;
+        text-decoration: none;
+        /* line-height: 28px; */
+        font-family: 'FloodStd';
+        flex-direction: column;
+        /* text-align: left; */
+        padding: 0;
+        font: normal normal 300 14px/24px Helvetica;
+        letter-spacing: -0.14px;
+        color: #354463;
     }
 }
 
