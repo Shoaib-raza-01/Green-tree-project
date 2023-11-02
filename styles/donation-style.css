@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+}
+.form-container{
+    width: 100%;
+    background: url('../assets/assets//donation/annie-spratt-427340-unsplash.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 2rem;
+}
+.form-fields{
+    background: #354463 0% 0% no-repeat padding-box;
+    opacity: 1;
+    margin: 3rem auto;
+}
+.section-heading{
+    text-align: left;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    padding: 2rem ;
+}
+.input-fields{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "a b"
+    "c c"
+    "d e"
+    "f f";
+    row-gap: 2rem;
+    column-gap: 1rem;
+}
+.state-zip{
+    display: flex;
+    justify-content: space-between;
+}
+
+.firstname, .lastname, .streetAddress, .city-input, .zip-code, .expMonth, .expYear, .emailAddress, .ccNum, .cvv{
+    
+    font-family: 'Arial', sans-serif;
+    /* text-decoration: none; */
+    /* border-style: none; */
+    border: #354463;
+    border-bottom: 2px solid #C1F7D5;
+    background: #354463;
+}
+::placeholder {
+    text-align: left;
+    font: normal normal 300 16px/24px Helvetica;
+    letter-spacing: -0.16px;
+    color: #FFFFFF;
+}
+/* footer styles here  */
+.footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 60px 10px;
+}
+.address{
+    text-align: left;
+    font: normal normal 300 14px/20px Helvetica;
+    letter-spacing: -0.14px;
+    color: #354463;
+    opacity: 1;
+}
+
+.footer-tag{
+    text-align: left;
+    font: normal normal normal 44px/46px Flood Std;
+    letter-spacing: 0px;
+    color: #354463;
+    opacity: 1;
+}
