@@ -722,7 +722,7 @@
 
 /* desktop view media queries*/
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 800px) {
     .top-heading {
         grid-area: a;
     }
