@@ -50,6 +50,12 @@
     letter-spacing: -0.16px;
     color: #FFFFFF;
 }
+select{
+    border: none;
+    background: transparent;
+    border-bottom: 2px solid #C1F7D5;
+    color: #C1F7D5;
+}
 /* footer styles here  */
 .footer{
     display: flex;
