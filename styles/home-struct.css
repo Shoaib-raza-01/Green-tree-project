@@ -48,6 +48,7 @@
     }
     .issue-head{
         left: 72px;
+        top: 40px;
     }
     .issue-content{
         height: 250px;
@@ -374,10 +375,13 @@
     }
     .issue-head{
         position: relative;
-        left: 170px;
+        left: 140px;
+        top: 20px;
+
     }
     .the-issue{
         display: flex;
+        flex-direction: column;
         margin-left: auto;
         margin-right: auto;
         padding-top: 25px;
@@ -587,6 +591,10 @@
         top: -20px;
         left: 40px;
     }
+    .second-part{
+        position: relative;
+        top: -50px;
+    }
     .stories-container{
         width: 70%;
         height: 250px;
@@ -621,6 +629,15 @@
     .earth-second-container{
         /* width: 300px; */
         flex-direction: row-reverse;
+    }
+    .earth-day-heading{
+        width: 216px;
+        height: 100px;
+
+        text-align: left;
+        font: normal normal bold 28px/36px Helvetica;
+        letter-spacing: 0px;
+        color: #FFFFFF;
     }
     .earth-day-content{
         font: normal normal 300 14px/20px Helvetica;
@@ -723,20 +740,150 @@
 
 /* desktop view media queries*/
 
-@media screen and (min-width: 800px) {
-    .top-heading {
-        grid-area: a;
-    }
-    .donate-btn {
-        grid-area: b;
-    }
-    .menu {
-        grid-area: c;
+@media screen and (min-width: 900px) {
+    .nav-parent{
+        display: flex;
+        justify-content: space-around;
     }
     .nav-list{
         display: flex;
         
     }
+    .top-heading{
+        margin-left: -85px;
+    }
+
+    .issue{
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        justify-content: center;
+    } 
+    .issue-head{
+        left: 30px;
+    }
+    .issue-content{
+        height: 420px;
+        width: 540px;
+    }
+    .content{
+        text-align: left;
+        font: normal normal bold 44px/56px Helvetica;
+        letter-spacing: 0px;
+        color: #354463;
+    }
+
+    .action{
+        display: flex;
+    }
+    .learn{
+        text-align: left;
+        font: normal normal bold 28px/36px Helvetica;
+        letter-spacing: 0px;
+        color: #354463;
+    }
+    .learn-txt{
+        text-align: left;
+        font: normal normal 300 16px/24px Helvetica;
+        letter-spacing: -0.16px;
+        color: #354463;
+    }
+
+
+    .list-of-work{
+        display: flex;
+        justify-content: space-around;
+    }
+    .work{
+        display: flex;
+        flex-direction: column;
+        height: 545px;
+        width: 300px;
+    }
+    .topic{
+        margin-left: -27px;
+
+    }
+    .work-txt{
+        margin-left: -27px;
+        margin-top: 150px;
+    }
+    .read-more-btn{
+        margin-top: -140px;
+        margin-left: 30px;
+        text-align: left;
+        font: normal normal 300 16px/24px Helvetica;
+        letter-spacing: -0.16px;
+        color: #354463;   
+    }
+    .tag2{
+        text-align: left;
+        font: normal normal normal 80px/96px Flood Std;
+        letter-spacing: 0px;
+        color: #FFFFFF;
+    }
+    .d-y-know{
+        position: relative;
+        top: 0;
+        left: -100px;
+    }
+    .info-txt{
+        text-align: left;
+        font: normal normal bold 44px/56px Helvetica;
+        letter-spacing: 0px;
+        color: #354463;
+    }
+    .out-of-four{
+        height: 220px;
+        width: 540px;
+    }
+    .with-twitter, .with-facebook{
+        margin-left: -90px;
+    }
+    .social-image{
+        padding-left: 0;
+    }
+    .take-action-btn{
+        margin-left: 0;
+    }
+    .comp-5{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+    }
+    .stories-top{
+        height: 40px;
+        position: relative;
+        left: 50px;
+        top: -20px;
+    }
+    .stories-container{
+        height: 300px;
+        width: 400px;
+        position: relative;
+        top: 150px;
+    }
+    .comp-6-tag{
+        width: 847px;
+        height: 148px;
+
+        text-align: left;
+        font: normal normal normal 72px/76px Flood Std;
+        letter-spacing: 0px;
+        color: #FFFFFF;
+    }
+    .earth-day-heading{
+        width: 448px;
+        height: 165px;
+
+        text-align: left;
+        font: normal normal bold 44px/56px Helvetica;
+        letter-spacing: 0px;
+        color: #FFFFFF;
+    }
+
+    /* footer  */
+
     .flex-item{
         flex: 0 0 calc(20% - 10px); 
         /* padding: 0; */
